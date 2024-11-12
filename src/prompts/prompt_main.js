@@ -1,4 +1,4 @@
-const mainPompt = [
+const mainPrompt = [
     {
         name: "select",
         description: "Escolha a ferramenta (1 - Qrcode 2 - Gerador de senha)",
@@ -6,4 +6,6 @@ const mainPompt = [
         message: "Escolha uma opção váilida",
         required: true,
     },
-]
+];
+
+export default mainPrompt;
